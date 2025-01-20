@@ -1,8 +1,15 @@
 import React from 'react'
+import { hightlightsSlides } from '../constants'
 
 const VideoCarousel = () => {
   return (
-    <div>VideoCarousel</div>
+    <>
+        <div className='flex items-center'>
+            {hightlightsSlides.map((list,i)=>(
+                div
+            ))}
+        </div>
+    </>
   )
 }
 
